@@ -18,7 +18,7 @@ function Projects() {
             <div className="grid py-12 gap-4 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2">
 
               {/* card one */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2 overflow-auto">
 
                   <div className='flex gap-4 '>
                     <a href="https://github.com/Danielheppenstiel/Github-Search-App-React" target="_blank">
@@ -30,7 +30,7 @@ function Projects() {
                     </a>
                     
                   </div>
-                  <h3 className='text-baby-blue text-xl'>DevFinder</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>DevFinder</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>A single page application for finding developer profiles on github, built with the Github API and modern technologies.</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
@@ -41,7 +41,7 @@ function Projects() {
               </div>
 
               {/* card two */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2 overflow-auto">
                   <div className='flex gap-4 '>
 
                     <a href="https://github.com/Danielheppenstiel/Tic-Tac-Toe-Game" target="_blank">
@@ -53,7 +53,7 @@ function Projects() {
                     </a>
                     
                   </div>
-                  <h3 className='text-baby-blue text-xl'>Tic-Tac-Toe</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>Tic-Tac-Toe</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>A traditional Tic-Tac-Toe game played against a virtual player, built with vanilla javascript</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
@@ -63,7 +63,7 @@ function Projects() {
               </div>     
 
               {/* card three */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:-translate-y-2 overflow-auto">
                   <div className='flex gap-4 '>
 
                   <a href="https://github.com/Danielheppenstiel/react-feedback-application" target="_blank">
@@ -75,7 +75,7 @@ function Projects() {
                     </a>
                     
                   </div>
-                  <h3 className='text-baby-blue text-xl'>Feedback Application</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>Feedback Application</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>React application used to provide feedback for a product or service</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
@@ -87,13 +87,13 @@ function Projects() {
 
 
               {/* card four */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2 overflow-auto">
                   <div className='flex gap-4 '>
                     <a href="https://github.com/Danielheppenstiel/portfolio" target="_blank">
                       <GithubLogo color='white' />
                     </a>
                   </div>
-                  <h3 className='text-baby-blue text-xl'>Portfolio Website</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>Portfolio Website</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>My personal portfolio to display work I have completed and to be used as a introduction and way of getting in contact.</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
@@ -105,7 +105,7 @@ function Projects() {
 
 
               {/* card five */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2 overflow-auto">
                   <div className='flex gap-4 '>
 
                     <a href="https://github.com/Danielheppenstiel/Pig-Game" target="_blank">
@@ -117,7 +117,7 @@ function Projects() {
                     </a>
 
                   </div>
-                  <h3 className='text-baby-blue text-xl'>Pig Game</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>Pig Game</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>A desktop web application for playing the dice game 'Pig'</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
@@ -128,7 +128,7 @@ function Projects() {
 
 
               {/* card six */}
-              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2">
+              <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2 overflow-auto">
                   <div className='flex gap-4 '>
 
                   <a href="https://github.com/Danielheppenstiel/Time-Tracking-Dashboard" target="_blank">
@@ -140,7 +140,7 @@ function Projects() {
                     </a>
 
                   </div>
-                  <h3 className='text-baby-blue text-xl'>Time Tracking Dashboard</h3>
+                  <h3 className='text-baby-blue text-xl text-center'>Time Tracking Dashboard</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>Displays how time was spent over a daily, weekly and monthly basis.</p>
                   <div className='flex gap-1 text-sm text-gray-600'>
                     <p>HTML</p>
