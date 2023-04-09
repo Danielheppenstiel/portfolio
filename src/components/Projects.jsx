@@ -89,7 +89,9 @@ function Projects() {
               {/* card four */}
               <div className="flex flex-col gap-8 items-center justify-center bg-[#0f1e39] w-100 h-72 shadow-lg rounded-lg hover:translate-y-2">
                   <div className='flex gap-4 '>
-                    <GithubLogo color='white' />
+                    <a href="https://github.com/Danielheppenstiel/portfolio" target="_blank">
+                      <GithubLogo color='white' />
+                    </a>
                   </div>
                   <h3 className='text-baby-blue text-xl'>Portfolio Website</h3>
                   <p className='text-gray-400 text-center text-sm px-2'>My personal portfolio to display work I have completed and to be used as a introduction and way of getting in contact.</p>
