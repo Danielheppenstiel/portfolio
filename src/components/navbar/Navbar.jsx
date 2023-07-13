@@ -57,7 +57,7 @@ function Navbar() {
                 </li>
             </ul>
             <div>
-                <button className='text-gray-400 text-center border rounded-md px-4 py-2 hover:bg-baby-green transition-colors duration-300'>RESUME</button>
+                <button className='text-gray-400 text-center border rounded-md px-4 py-2 hover:bg-baby-green transition-colors duration-300'><a href='https://drive.google.com/file/d/11nrl7rMhU5AeymX8Plc6pApeH5oi-nLu/view?usp=sharing' target='_blank'>RESUME</a></button>
             </div>
         </div>
       <Social />
