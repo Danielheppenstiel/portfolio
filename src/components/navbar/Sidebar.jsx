@@ -43,7 +43,7 @@ function Sidebar() {
                             </li>
                         </ul>
                         <div className='py-8'>
-                            <button className='text-gray-400 text-center border rounded-md px-8 py-4 hover:bg-baby-green'>RESUME</button>
+                            <button className='text-gray-400 text-center border rounded-md px-8 py-4 hover:bg-baby-green'><a href='https://www.dropbox.com/scl/fi/ihzhc5u6snpqe7153by16/Resume-2023-frontend-dev.pdf?rlkey=xmfysjz14p4bi7hgwlcle6xl9&dl=0' target='_blank'>RESUME</a></button>
                         </div>
                     </div>
         ) : null}
