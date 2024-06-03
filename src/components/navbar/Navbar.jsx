@@ -57,7 +57,7 @@ function Navbar() {
                 </li>
             </ul>
             <div>
-                <button className='text-gray-400 text-center border rounded-md px-4 py-2 hover:bg-baby-green transition-colors duration-300'><a href='https://www.dropbox.com/scl/fi/ihzhc5u6snpqe7153by16/Resume-2023-frontend-dev.pdf?rlkey=xmfysjz14p4bi7hgwlcle6xl9&dl=0' target='_blank'>RESUME</a></button>
+                <button className='text-gray-400 text-center border rounded-md px-4 py-2 hover:bg-baby-green transition-colors duration-300'><a href='https://www.dropbox.com/scl/fi/xxvu4id9hxti6gk3k8es7/Resume-Daniel-Heppenstiel-frontend-Developer-2024.pdf?rlkey=3pq3c7a93rw6zhixjfbw1hvod&dl=0' target='_blank'>RESUME</a></button>
             </div>
         </div>
       <Social />
